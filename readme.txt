@@ -1,7 +1,7 @@
 === 2BC Image Gallery ===
 Contributors: 2bc_jason, 2bc_aron
 Donate link: http://2bcoding.com/donate-to-2bcoding
-Tags: 2bcoding, image, gallery, image gallery, lightbox, gallery lightbox, ajax, javascript, responsive, mobile view, media, automatic, tags, categories, shortcode
+Tags: 2bcoding, 2bc, image, gallery, image gallery, lightbox, gallery lightbox, ajax, javascript, responsive, mobile view, media, automatic, tags, categories, shortcode
 Author URI: http://2bcoding.com
 Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
 Requires at least: 3.6
