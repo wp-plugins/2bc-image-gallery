@@ -1,0 +1,167 @@
+/* Clearfix */
+.cf:before,
+.cf:after,
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.cf:after,
+.clearfix:after {
+	clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf,
+.clearfix {
+	zoom: 1;
+}
+
+/* add space between gallery sections on list page */
+.twobc_image_gallery_years,
+.twobc_image_gallery_months {
+	margin-bottom: 20px;
+}
+
+.twobc_image_gallery_wrapper .thumb_wrapper {
+	margin: 5px;
+	padding: 5px;
+	background: #ccc;
+	text-align: center;
+	-moz-transition: opacity .5s ease;
+	-webkit-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+	opacity:1;
+	filter:alpha(opacity=100);
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+	-moz-box-shadow:    3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+	box-shadow:         3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+}
+
+.twobc_image_gallery_universal_wrapper {
+	text-align: center;
+}
+
+.image_gallery_section_title,.twobc_image_gallery_title {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.twobc_image_gallery_wrapper .thumb_wrapper:hover {
+	opacity:.7;
+	filter:alpha(opacity=70);
+}
+
+.twobc_image_galleries_back_wrapper {
+	margin: 10px 0;
+}
+
+.twobc_galleries_back {
+	padding: 8px;
+	background: #bbbbbb; /* Old browsers */
+	background: #bbbbbb; /* Old browsers */
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #dddddd 15%, #dddddd 15%, #dddddd 85%, #bbbbbb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bbbbbb), color-stop(15%, #dddddd), color-stop(15%, #dddddd), color-stop(85%, #dddddd), color-stop(100%, #bbbbbb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bbbbbb 0%, #dddddd 15%, #dddddd 15%, #dddddd 85%, #bbbbbb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bbbbbb 0%, #dddddd 15%, #dddddd 15%, #dddddd 85%, #bbbbbb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bbbbbb 0%, #dddddd 15%, #dddddd 15%, #dddddd 85%, #bbbbbb 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #bbbbbb 0%, #dddddd 15%, #dddddd 15%, #dddddd 85%, #bbbbbb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbbbbb', endColorstr='#bbbbbb', GradientType=0); /* IE6-9 */
+	-moz-transition: opacity .5s ease;
+	-webkit-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	color: #333;
+	display: inline-block;
+	border: #999 1px solid;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+	-moz-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+	box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+}
+
+.twobc_galleries_back:hover, .gallery_button_next:hover, .gallery_button_back:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+.gallery_page_buttons {
+	/* fix phantom spacing - this means ellipses do not show */
+	
+	
+	max-width: 280px;
+	margin: 15px auto;
+	
+	white-space: pre-wrap; /* css-3 */    
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */    
+	white-space: -o-pre-wrap; /* Opera 7 */    
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	
+	line-height: 2em;
+}
+
+	.gallery_page_buttons > span {
+		
+	}
+
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons a {
+	text-decoration: none;
+	color: #333;
+	background: #dedede;
+	border: #999 1px solid;	
+	padding: 0 2px;
+	font-size: 1em;
+	-moz-transition: background-color .5s ease, font-size .5s ease;
+	-webkit-transition: background-color .5s ease, font-size .5s ease;
+	-o-transition: background-color .5s ease, font-size .5s ease;
+	-ms-transition: background-color .5s ease, font-size .5s ease;
+	transition: background-color .5s ease, font-size .5s ease;
+}
+
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons a,
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons span {
+	margin: 0 2px;
+}
+
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons a.current_page {
+	background: #000085;
+	color: #fefefe;
+}
+
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons a.current_page:hover {
+	background: #0000ff;
+}
+
+.twobc_image_gallery_universal_wrapper .gallery_page_buttons a:hover {
+	background: #eee;
+}
+
+/** previous and next page button spacing **/
+
+
+
+
+/* Modal view */
+/** filename in modal view **/
+.twobc-pico-content > p {
+	background: #fefefe;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0;
+}
+
+/* responsive queries */
+@media screen and (max-width: 720px) {
+	/* make page buttons bigger on mobile */
+	.twobc_image_gallery_universal_wrapper .gallery_page_buttons a {
+		font-size: 1.2em;
+		padding: 2px 2px;		
+	}	
+}
