@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the 2BC Image Gallery package.
 msgid ""
 msgstr ""
-"Project-Id-Version: 2BC Image Gallery 1.0.0\n"
+"Project-Id-Version: 2BC Image Gallery 1.0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/2bc-image-gallery\n"
-"POT-Creation-Date: 2014-11-25 03:35:34+00:00\n"
+"POT-Creation-Date: 2014-12-16 02:08:29+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: 2bc-image-gallery.php:127 2bc-image-gallery.php:922
-#: 2bc-image-gallery.php:965
+#: 2bc-image-gallery.php:127 2bc-image-gallery.php:925
+#: 2bc-image-gallery.php:968
 msgid "Choose or Upload an Image"
 msgstr ""
 
@@ -81,6 +81,12 @@ msgstr ""
 
 #: 2bc-image-gallery.php:254
 msgid "No galleries found"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (2BC Image Gallery 1.0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: 2bc-image-gallery.php:287 2bc-image-gallery.php:288
+msgid "2BC Image Gallery"
 msgstr ""
 
 #: 2bc-image-gallery.php:314
@@ -254,113 +260,113 @@ msgstr ""
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: 2bc-image-gallery.php:572
+#: 2bc-image-gallery.php:570
+msgid "2BC Image Gallery Options"
+msgstr ""
+
+#: 2bc-image-gallery.php:573
 msgid ""
 "More help available at the <a href=\"http://2bcoding.com/plugins/2bc-image-"
 "gallery/2bc-image-gallery-documentation/\" target=\"_blank\" ref=\"nofollow"
 "\">2BC Image Gallery documentation page</a>."
 msgstr ""
 
-#: 2bc-image-gallery.php:687 2bc-image-gallery.php:1682
+#: 2bc-image-gallery.php:690 2bc-image-gallery.php:1685
 msgid "%s"
 msgstr ""
 
-#: 2bc-image-gallery.php:696
+#: 2bc-image-gallery.php:699
 msgid "Settings saved."
 msgstr ""
 
-#: 2bc-image-gallery.php:894
+#: 2bc-image-gallery.php:897
 msgid ""
 "This page is currently being used to display the <strong>2BC Media Gallery</"
 "strong>"
 msgstr ""
 
-#: 2bc-image-gallery.php:914
+#: 2bc-image-gallery.php:917
 msgid "Gallery Featured Image ID"
 msgstr ""
 
-#: 2bc-image-gallery.php:928 2bc-image-gallery.php:971
+#: 2bc-image-gallery.php:931 2bc-image-gallery.php:974
 msgid "Choose or upload a picture to be the galleries featured image"
 msgstr ""
 
-#: 2bc-image-gallery.php:950
+#: 2bc-image-gallery.php:953
 msgid "Gallery Featured Image"
 msgstr ""
 
-#: 2bc-image-gallery.php:1014
+#: 2bc-image-gallery.php:1017
 msgid "ID"
 msgstr ""
 
-#: 2bc-image-gallery.php:1336
+#: 2bc-image-gallery.php:1339
 msgid "Galleries by year"
 msgstr ""
 
-#: 2bc-image-gallery.php:1360
+#: 2bc-image-gallery.php:1363
 msgid "January"
 msgstr ""
 
-#: 2bc-image-gallery.php:1361
+#: 2bc-image-gallery.php:1364
 msgid "February"
 msgstr ""
 
-#: 2bc-image-gallery.php:1362
+#: 2bc-image-gallery.php:1365
 msgid "March"
 msgstr ""
 
-#: 2bc-image-gallery.php:1363
+#: 2bc-image-gallery.php:1366
 msgid "April"
 msgstr ""
 
-#: 2bc-image-gallery.php:1364
+#: 2bc-image-gallery.php:1367
 msgid "May"
 msgstr ""
 
-#: 2bc-image-gallery.php:1365
+#: 2bc-image-gallery.php:1368
 msgid "June"
 msgstr ""
 
-#: 2bc-image-gallery.php:1366
+#: 2bc-image-gallery.php:1369
 msgid "July"
 msgstr ""
 
-#: 2bc-image-gallery.php:1367
+#: 2bc-image-gallery.php:1370
 msgid "August"
 msgstr ""
 
-#: 2bc-image-gallery.php:1368
+#: 2bc-image-gallery.php:1371
 msgid "September"
 msgstr ""
 
-#: 2bc-image-gallery.php:1369
+#: 2bc-image-gallery.php:1372
 msgid "October"
 msgstr ""
 
-#: 2bc-image-gallery.php:1370
+#: 2bc-image-gallery.php:1373
 msgid "November"
 msgstr ""
 
-#: 2bc-image-gallery.php:1371
+#: 2bc-image-gallery.php:1374
 msgid "December"
 msgstr ""
 
-#: 2bc-image-gallery.php:1400
+#: 2bc-image-gallery.php:1403
 msgid "Galleries by month"
 msgstr ""
 
-#: 2bc-image-gallery.php:1416
+#: 2bc-image-gallery.php:1419
 msgid "Custom Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:1443
+#: 2bc-image-gallery.php:1446
 msgid "No galleries to display!"
 msgstr ""
 
-#: 2bc-image-gallery.php:1704
+#: 2bc-image-gallery.php:1707
 msgid "&laquo; Back to galleries"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "2BC Image Gallery"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
