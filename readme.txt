@@ -6,7 +6,7 @@ Author URI: http://2bcoding.com
 Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
 Requires at least: 3.6
 Tested up to: 4.0.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,7 +51,7 @@ The *2BC Image Gallery* can be installed via the WordPress plugin repository (au
 
 = Manual =
 
-1. Download a copy of the plugin and save it to the local computer.  Make sure that the folder has been unzipped.
+1. [Download a copy of the plugin](https://wordpress.org/plugins/2bc-image-gallery/) and save it to the local computer.  Make sure that the folder has been unzipped.
 2. [Using an FTP program or cPanel](https://codex.wordpress.org/FTP_Clients) (a good program for FTP is [FileZilla](https://filezilla-project.org/)), connect to the server that is hosting the website
 3. Find the root folder for the site and browse to the following directories: **wp-content** > **plugins**
 4. Upload the un-compressed *2BC Image Gallery* plugin folder in to the *plugins* folder on the server
@@ -159,10 +159,17 @@ function my_custom_next_button_function($button_text) {
 
 == Changelog ==
 
+= 1.0.1 =
+* Adding additional items to gettext filter for translation
+* Fixed reference to lang folder
+
 = 1.0.0 =
 * Launch of the official plugin
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Fixes minor bugs with translations
 
 = 1.0.0 =
 Launch of the official plugin

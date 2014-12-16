@@ -3,7 +3,7 @@
  * Plugin Name: 2BC Image Gallery
  * Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
  * Description: Add tags to images and group them into galleries, easily set options to display the lightbox galleries, or use the shortcode
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: 2bcoding
  * Author URI: http://2bcoding.com
  * License: GPL2
@@ -39,7 +39,7 @@ if ( !defined( 'ABSPATH' ) ) {
  ***********************************************/
 // remember that this is set above in the plugin comments as well
 // stored in the DB for upgrade check
-$twobc_image_gallery_version = '1.0.0';
+$twobc_image_gallery_version = '1.0.1';
 
 // default plugin values
 $twobc_image_gallery_default_values = array (
@@ -71,7 +71,7 @@ function twobc_image_gallery_plugins_loaded() {
 	define('TWOBC_IMAGEGALLERY_URL', plugin_dir_url(__FILE__));
 	define('TWOBC_IMAGEGALLERY_TEXT_DOMAIN', 'TwoBCImageGallery');
 	
-	load_plugin_textdomain(TWOBC_IMAGEGALLERY_TEXT_DOMAIN, false, basename(dirname(__FILE__)) . '/languages');
+	load_plugin_textdomain(TWOBC_IMAGEGALLERY_TEXT_DOMAIN, false, basename(dirname(__FILE__)) . '/lang');
 	
 	// handle install and upgrade
 	global $twobc_image_gallery_version;
@@ -284,8 +284,8 @@ add_action('admin_menu', 'twobc_image_gallery_settings_menu');
  */
 function twobc_image_gallery_settings_menu() {
 	add_options_page(
-		'2BC Image Gallery', // page title
-		'2BC Image Gallery', // menu title
+		__('2BC Image Gallery', TWOBC_IMAGEGALLERY_TEXT_DOMAIN), // page title
+		__('2BC Image Gallery', TWOBC_IMAGEGALLERY_TEXT_DOMAIN), // menu title
 		'manage_options', // capability required
 		'twobc_imagegallery', // page slug
 		'twobc_image_gallery_settings_page_cb' // display callback
@@ -554,9 +554,10 @@ function twobc_image_gallery_settings_page_cb() {
 		wp_die(__('You do not have sufficient permissions to access this page.', TWOBC_IMAGEGALLERY_TEXT_DOMAIN));
 	}
 
-	$image_gallery_css = twobc_image_gallery_get_admin_css();
-	if (!empty($image_gallery_css)) {
-		echo '<style>' . $image_gallery_css . '</style>';
+	$image_gallery_admin_css = twobc_image_gallery_get_admin_css();
+	if ( !empty($image_gallery_admin_css) ) {
+		echo '<style>' . $image_gallery_admin_css . '</style>
+';
 	}
 
 	echo '<div id="twobc_image_gallery_options_wrap" class="wrap">
@@ -566,11 +567,12 @@ function twobc_image_gallery_settings_page_cb() {
 		false, // re-sanitize values on errors
 		true // hide on update - set to true to get rid of duplicate Updated messages
 	);
-	echo '	<h2>2BC Image Gallery Options</h2>
+	echo '	<h2>' . __('2BC Image Gallery Options', TWOBC_IMAGEGALLERY_TEXT_DOMAIN) . '</h2>
 ';
 	echo '	<p>';
 	_e('More help available at the <a href="http://2bcoding.com/plugins/2bc-image-gallery/2bc-image-gallery-documentation/" target="_blank" ref="nofollow">2BC Image Gallery documentation page</a>.', TWOBC_IMAGEGALLERY_TEXT_DOMAIN);
-	echo '</p>';
+	echo '</p>
+';
 	echo '	<form method="post" action="options.php">
 ';
 
@@ -586,7 +588,8 @@ function twobc_image_gallery_settings_page_cb() {
 
 	$image_gallery_js = twobc_image_gallery_get_admin_js();
 	if (!empty($image_gallery_js)) {
-		echo '<script>' . $image_gallery_js . '</script>';
+		echo '<script>' . $image_gallery_js . '</script>
+';
 	}
 
 }
