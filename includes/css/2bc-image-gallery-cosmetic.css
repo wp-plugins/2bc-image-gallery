@@ -25,7 +25,8 @@
 }
 
 .twobc_image_gallery_wrapper .thumb_wrapper {
-	margin: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
 	padding: 5px;
 	background: #ccc;
 	text-align: center;
@@ -39,6 +40,13 @@
 	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
 	-moz-box-shadow:    3px 3px 6px 0px rgba(50, 50, 50, 0.47);
 	box-shadow:         3px 3px 6px 0px rgba(50, 50, 50, 0.47);
+	/* remove borders from links, ex twentyfifteen theme */
+	border: none;
+}
+/* make sure images are not resized, so the thumbs appear the same size always */
+.twobc_image_gallery_wrapper .thumb_wrapper img {
+	min-height: 150px;
+	min-width: 100%;
 }
 
 .twobc_image_gallery_universal_wrapper {
@@ -79,7 +87,8 @@
 	filter: alpha(opacity=100);
 	color: #333;
 	display: inline-block;
-	border: #999 1px solid;
+	/* twentyfifteen is adding a border-bottom to all links, adding important to over-ride */
+	border: #999 1px solid !important;
 	border-radius: 5px;
 	-webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
 	-moz-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.47);
@@ -93,17 +102,13 @@
 
 .gallery_page_buttons {
 	/* fix phantom spacing - this means ellipses do not show */
-	
-	
 	max-width: 280px;
 	margin: 15px auto;
-	
 	white-space: pre-wrap; /* css-3 */    
 	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
 	white-space: -pre-wrap; /* Opera 4-6 */    
 	white-space: -o-pre-wrap; /* Opera 7 */    
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
-	
 	line-height: 2em;
 }
 
@@ -150,8 +155,15 @@
 
 /* Modal view */
 /** filename in modal view **/
+
+.twobc-pico-content {
+	background: #eee;
+	padding: 25px;
+	border-radius: 5px;
+}
+
 .twobc-pico-content > p {
-	background: #fefefe;
+	
 	text-align: center;
 	padding: 5px 0;
 	margin: 0;
@@ -163,5 +175,15 @@
 	.twobc_image_gallery_universal_wrapper .gallery_page_buttons a {
 		font-size: 1.2em;
 		padding: 2px 2px;		
-	}	
+	}
+	/** try to fit as many images on a line as possible in mobile view **/
+	.twobc_image_gallery_wrapper .thumb_wrapper {
+		width: 120px !important;
+	}
+
+	.twobc_image_gallery_wrapper .thumb_wrapper img {
+		height: 110px;
+		min-height: 110px;
+	}
+	
 }

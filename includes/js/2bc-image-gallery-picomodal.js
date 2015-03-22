@@ -23,7 +23,7 @@
 /**
  * A self-contained modal library
  */
-window.picoModal = (function(window, document) {
+window.twobc_picoModal = (function(window, document) {
     "use strict";
 
     // Generates observable objects that can be watched and triggered
@@ -202,17 +202,7 @@ window.picoModal = (function(window, document) {
                 .html( getOption('closeHtml', "&#xD7;") )
                 .clazz("pico-close")
                 .stylize( getOption('closeStyles', {
-                    borderRadius: "2px",
-                    cursor: "pointer",
-                    height: "20px",
-                    width: "20px",
-                    position: "absolute",
-                    top: "5px",
-                    right: "5px",
-                    fontSize: "34px",
-                    textAlign: "center",
-                    lineHeight: "15px",
-                    background: "#CCC"
+                    
                 }) )
                 .onClick(close);
         }

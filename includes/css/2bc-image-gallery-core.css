@@ -46,9 +46,7 @@
 
 .twobc_image_gallery_wrapper .thumb_wrapper {
 	display: inline-block;
-	
 	vertical-align: top;
-	
 	cursor: pointer;
 }
 
@@ -57,12 +55,7 @@
 }
 
 .twobc_image_gallery_overlay_wrapper {
-	/*overflow-y: auto;
-	-moz-transition: max-height 1s ease;
-	-webkit-transition: max-height 1s ease;
-	-o-transition: max-height 1s ease;
-	-ms-transition: max-height 1s ease;
-	transition: max-height 1s ease;*/
+	
 }
 
 .twobc_image_gallery_overlay_wrapper.hide_gallery {
@@ -71,7 +64,7 @@
 }
 
 .twobc_image_gallery_overlay_wrapper.show_gallery {
-	/*max-height: 500px;*/	
+	
 }
 
 .twobc_image_gallery_overlay_wrapper .twobc_galleries_back {
@@ -81,5 +74,82 @@
 .twobc-pico-content img{
 	max-width: 100%;
 	height: auto;
+	display: block;
 }
 
+.twobc-pico-content .pico-close {
+	border-radius: 2px;
+	cursor: pointer;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: 1px;
+	right: 2px;
+	font-size: 0;
+	text-align: center;
+	line-height: 15px;
+	background: transparent url(../images/scsheet60a.png) -104px 0px no-repeat;
+	background-size: cover;
+}
+
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper {
+	text-align: center;
+	margin-top: 5px;
+	font-size: 0;
+}
+.twobc-pico-content .twobc_ig_modal_wrapper {
+	position: relative;
+}
+.twobc-pico-content .twobc_ig_modal_wrapper > p {
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	background: rgba(0,0,0,.6);
+	max-height: 70%;
+	overflow: auto;
+	margin: 0;
+	line-height: 1em;
+}
+
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_button,.twobc-pico-content .pico-close {
+	display: inline-block;
+	vertical-align: middle;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	-moz-transition: opacity .5s ease;
+	-webkit-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	transition: opacity .5s ease;	
+}
+
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_button:hover,.twobc-pico-content .pico-close:hover {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_prev_button,.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_next_button,.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_play_button {
+	margin: 0 3px;
+	width: 30px;
+	height: 30px;
+}
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_prev_button {
+	background: transparent url(../images/scsheet60a.png) -90px 0px no-repeat;
+	background-size: cover;
+}
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_next_button {
+	background: transparent url(../images/scsheet60a.png) -60px 0px no-repeat;
+	background-size: cover;
+}
+
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_play_button {
+	background: transparent url(../images/scsheet60a.png) 0px 0px no-repeat;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+}
+.twobc-pico-content .twobc_ig_modal_buttons_wrapper .twobc_ig_modal_play_button.playing {
+	background: transparent url(../images/scsheet60a.png) -40px 0 no-repeat;
+	background-size: cover;
+}

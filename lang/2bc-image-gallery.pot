@@ -1,388 +1,423 @@
-# Copyright (C) 2014 2BC Image Gallery
-# This file is distributed under the same license as the 2BC Image Gallery package.
+# Copyright (C) 2015 2B Coding
+# This file is distributed under the GPL v2.
 msgid ""
 msgstr ""
-"Project-Id-Version: 2BC Image Gallery 1.0.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/2bc-image-gallery\n"
-"POT-Creation-Date: 2014-12-16 02:08:29+00:00\n"
+"Project-Id-Version: 2BC Image Gallery\n"
+"POT-Creation-Date: 2015-03-06 23:23-0800\n"
+"PO-Revision-Date: 2015-03-06 23:23-0800\n"
+"Last-Translator: Jason Dreher <jason@2bcoding.com>\n"
+"Language-Team: 2BCoding <info@2bcoding.com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: 2bc-image-gallery.php:127 2bc-image-gallery.php:925
-#: 2bc-image-gallery.php:968
+#: 2bc-image-gallery.php:180 2bc-image-gallery.php:1028
+#: 2bc-image-gallery.php:1068
 msgid "Choose or Upload an Image"
 msgstr ""
 
-#: 2bc-image-gallery.php:128
+#: 2bc-image-gallery.php:181
 msgid "Use this image"
 msgstr ""
 
-#: 2bc-image-gallery.php:240
-msgctxt "taxonomy general name"
+#: 2bc-image-gallery.php:307
 msgid "Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:241
-msgctxt "taxonomy singular name"
-msgid "Gallery"
-msgstr ""
-
-#: 2bc-image-gallery.php:242
-msgid "Galleries"
-msgstr ""
-
-#: 2bc-image-gallery.php:243
+#: 2bc-image-gallery.php:308
 msgid "Search Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:244
+#: 2bc-image-gallery.php:309
 msgid "All Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:245
+#: 2bc-image-gallery.php:310
 msgid "Edit Gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:246
+#: 2bc-image-gallery.php:311
 msgid "View Gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:247
+#: 2bc-image-gallery.php:312
 msgid "Update Gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:248
+#: 2bc-image-gallery.php:313
 msgid "Add New Gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:249
+#: 2bc-image-gallery.php:314
 msgid "New Gallery Name"
 msgstr ""
 
-#: 2bc-image-gallery.php:250
+#: 2bc-image-gallery.php:315
 msgid "Popular Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:251
+#: 2bc-image-gallery.php:316
 msgid "Separate galleries with commas"
 msgstr ""
 
-#: 2bc-image-gallery.php:252
+#: 2bc-image-gallery.php:317
 msgid "Add or remove galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:253
+#: 2bc-image-gallery.php:318
 msgid "Choose from the most used galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:254
+#: 2bc-image-gallery.php:319
 msgid "No galleries found"
 msgstr ""
 
-#. #-#-#-#-#  plugin.pot (2BC Image Gallery 1.0.1)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
-#: 2bc-image-gallery.php:287 2bc-image-gallery.php:288
+#: 2bc-image-gallery.php:346 2bc-image-gallery.php:347
 msgid "2BC Image Gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:314
+#: 2bc-image-gallery.php:372
 msgid "Gallery Options"
 msgstr ""
 
-#: 2bc-image-gallery.php:328
+#: 2bc-image-gallery.php:386
 msgid "Select a page&hellip;"
 msgstr ""
 
-#: 2bc-image-gallery.php:338
+#: 2bc-image-gallery.php:396
 msgid "Gallery Page"
 msgstr ""
 
-#: 2bc-image-gallery.php:344
+#: 2bc-image-gallery.php:403
 msgid ""
 "Select a page to display galleries on.  The shortcode <code class=\"language-"
 "markup\">[2bc_image_gallery]</code> can be used for manual display instead "
 "of setting a page here."
 msgstr ""
 
-#: 2bc-image-gallery.php:352
+#: 2bc-image-gallery.php:411
 msgid "Page Content"
 msgstr ""
 
-#: 2bc-image-gallery.php:358
+#: 2bc-image-gallery.php:418
 msgid "Control how page content is handled on the Gallery Page"
 msgstr ""
 
-#: 2bc-image-gallery.php:360
+#: 2bc-image-gallery.php:420
 msgid "Before page content"
 msgstr ""
 
-#: 2bc-image-gallery.php:361
+#: 2bc-image-gallery.php:421
 msgid "Replace &#37;&#37;2bc_image_gallery&#37;&#37; template tag"
 msgstr ""
 
-#: 2bc-image-gallery.php:362
+#: 2bc-image-gallery.php:422
 msgid "After page content"
 msgstr ""
 
-#: 2bc-image-gallery.php:363
+#: 2bc-image-gallery.php:423
 msgid "Replace all page content with gallery"
 msgstr ""
 
-#: 2bc-image-gallery.php:371
+#: 2bc-image-gallery.php:431
 msgid "Sort Method"
 msgstr ""
 
-#: 2bc-image-gallery.php:377
+#: 2bc-image-gallery.php:438
 msgid ""
 "Select how gallery images are sorted: by <strong>uploaded date</strong>, "
 "alphbetically by <strong>filename</strong>, or <strong>random</strong>"
 msgstr ""
 
-#: 2bc-image-gallery.php:379
+#: 2bc-image-gallery.php:440
 msgid "Date uploaded"
 msgstr ""
 
-#: 2bc-image-gallery.php:380
+#: 2bc-image-gallery.php:441
 msgid "Filename"
 msgstr ""
 
-#: 2bc-image-gallery.php:381 2bc-image-gallery.php:443
+#: 2bc-image-gallery.php:442 2bc-image-gallery.php:509
 msgid "Random"
 msgstr ""
 
-#: 2bc-image-gallery.php:389
+#: 2bc-image-gallery.php:450
 msgid "Sort Order"
 msgstr ""
 
-#: 2bc-image-gallery.php:395
+#: 2bc-image-gallery.php:457
 msgid ""
 "Which direction to sort, <strong>ascending</strong> (1, 2, 3) or "
 "<strong>descending</strong> (9, 8, 7)"
 msgstr ""
 
-#: 2bc-image-gallery.php:397
+#: 2bc-image-gallery.php:459
 msgid "Descending"
 msgstr ""
 
-#: 2bc-image-gallery.php:398
+#: 2bc-image-gallery.php:460
 msgid "Ascending"
 msgstr ""
 
-#: 2bc-image-gallery.php:406
+#: 2bc-image-gallery.php:468
 msgid "Paginate Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:412
+#: 2bc-image-gallery.php:476
 msgid "Break up galleries into pages"
 msgstr ""
 
-#: 2bc-image-gallery.php:419
+#: 2bc-image-gallery.php:483
 msgid "Images Per Page"
 msgstr ""
 
-#: 2bc-image-gallery.php:425
+#: 2bc-image-gallery.php:490
 msgid ""
 "How many images to display per page, only applies if pagination is enabled"
 msgstr ""
 
-#: 2bc-image-gallery.php:433
+#: 2bc-image-gallery.php:498
 msgid "Gallery Thumb Source"
 msgstr ""
 
-#: 2bc-image-gallery.php:439
+#: 2bc-image-gallery.php:505
 msgid ""
 "If the gallery does not have a custom thumbnail, decide how to generate one"
 msgstr ""
 
-#: 2bc-image-gallery.php:441
+#: 2bc-image-gallery.php:507
 msgid "Last image added"
 msgstr ""
 
-#: 2bc-image-gallery.php:442
+#: 2bc-image-gallery.php:508
 msgid "First image added"
 msgstr ""
 
-#: 2bc-image-gallery.php:452
+#: 2bc-image-gallery.php:518
+msgid "Background Color: Image Thumbs"
+msgstr ""
+
+#: 2bc-image-gallery.php:526
+msgid "Choose an optional custom color for the image thumbnail backgrounds"
+msgstr ""
+
+#: 2bc-image-gallery.php:535
 msgid "Hide Default Stying"
 msgstr ""
 
-#: 2bc-image-gallery.php:458
+#: 2bc-image-gallery.php:543
 msgid ""
 "Check to not load the default style sheet, and create the styling in the "
 "theme CSS instead"
 msgstr ""
 
-#: 2bc-image-gallery.php:465
+#: 2bc-image-gallery.php:550
 msgid "Disable AJAX"
 msgstr ""
 
-#: 2bc-image-gallery.php:471
+#: 2bc-image-gallery.php:558
 msgid ""
 "Check to disable AJAX calls.  Do this if galleries are not loading when "
 "clicked.  This will mean that the page will refresh with the new content."
 msgstr ""
 
-#: 2bc-image-gallery.php:479
+#: 2bc-image-gallery.php:566
+msgid "Modal Options"
+msgstr ""
+
+#: 2bc-image-gallery.php:575
+msgid "Display Image Title"
+msgstr ""
+
+#: 2bc-image-gallery.php:583
+msgid "Display the image title when viewing a single image in the lightbox"
+msgstr ""
+
+#: 2bc-image-gallery.php:591
+msgid "Slideshow Delay"
+msgstr ""
+
+#: 2bc-image-gallery.php:598
+msgid ""
+"Enter how many milliseconds to wait before displaying the next slide, when "
+"the slideshow is playing"
+msgstr ""
+
+#: 2bc-image-gallery.php:606
+msgid "Background Color: Modal Window"
+msgstr ""
+
+#: 2bc-image-gallery.php:614
+msgid "Choose an optional custom color for the modal window background"
+msgstr ""
+
+#: 2bc-image-gallery.php:674
 msgid "Calendar Based Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:487
+#: 2bc-image-gallery.php:682
 msgid "Add Calendar Based Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:493
+#: 2bc-image-gallery.php:690
 msgid "Add calendar galleries (i.e. January, 2012) to uploaded images"
 msgstr ""
 
-#: 2bc-image-gallery.php:500
+#: 2bc-image-gallery.php:697
 msgid "Separate Calendar Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:506
+#: 2bc-image-gallery.php:705
 msgid "Show calendar galleries in their own separate section"
 msgstr ""
 
-#: 2bc-image-gallery.php:513
+#: 2bc-image-gallery.php:712
 msgid "Show Month Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:519
+#: 2bc-image-gallery.php:720
 msgid ""
 "Display month-based galleries on the main page, only applies if "
 "<strong>Separate Calendar Galleries</strong> is checked"
 msgstr ""
 
-#: 2bc-image-gallery.php:554
+#: 2bc-image-gallery.php:822
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: 2bc-image-gallery.php:570
+#: 2bc-image-gallery.php:838
 msgid "2BC Image Gallery Options"
 msgstr ""
 
-#: 2bc-image-gallery.php:573
+#: 2bc-image-gallery.php:841
 msgid ""
 "More help available at the <a href=\"http://2bcoding.com/plugins/2bc-image-"
 "gallery/2bc-image-gallery-documentation/\" target=\"_blank\" ref=\"nofollow"
 "\">2BC Image Gallery documentation page</a>."
 msgstr ""
 
-#: 2bc-image-gallery.php:690 2bc-image-gallery.php:1685
-msgid "%s"
+#: 2bc-image-gallery.php:850
+msgid "Save all settings"
 msgstr ""
 
-#: 2bc-image-gallery.php:699
+#: 2bc-image-gallery.php:975
 msgid "Settings saved."
 msgstr ""
 
-#: 2bc-image-gallery.php:897
+#: 2bc-image-gallery.php:1006
 msgid ""
 "This page is currently being used to display the <strong>2BC Media Gallery</"
 "strong>"
 msgstr ""
 
-#: 2bc-image-gallery.php:917
+#: 2bc-image-gallery.php:1020
 msgid "Gallery Featured Image ID"
 msgstr ""
 
-#: 2bc-image-gallery.php:931 2bc-image-gallery.php:974
+#: 2bc-image-gallery.php:1034 2bc-image-gallery.php:1074
 msgid "Choose or upload a picture to be the galleries featured image"
 msgstr ""
 
-#: 2bc-image-gallery.php:953
+#: 2bc-image-gallery.php:1053
 msgid "Gallery Featured Image"
 msgstr ""
 
-#: 2bc-image-gallery.php:1017
+#: 2bc-image-gallery.php:1110
 msgid "ID"
 msgstr ""
 
-#: 2bc-image-gallery.php:1339
+#: 2bc-image-gallery.php:1590
 msgid "Galleries by year"
 msgstr ""
 
-#: 2bc-image-gallery.php:1363
+#: 2bc-image-gallery.php:1614
 msgid "January"
 msgstr ""
 
-#: 2bc-image-gallery.php:1364
+#: 2bc-image-gallery.php:1615
 msgid "February"
 msgstr ""
 
-#: 2bc-image-gallery.php:1365
+#: 2bc-image-gallery.php:1616
 msgid "March"
 msgstr ""
 
-#: 2bc-image-gallery.php:1366
+#: 2bc-image-gallery.php:1617
 msgid "April"
 msgstr ""
 
-#: 2bc-image-gallery.php:1367
+#: 2bc-image-gallery.php:1618
 msgid "May"
 msgstr ""
 
-#: 2bc-image-gallery.php:1368
+#: 2bc-image-gallery.php:1619
 msgid "June"
 msgstr ""
 
-#: 2bc-image-gallery.php:1369
+#: 2bc-image-gallery.php:1620
 msgid "July"
 msgstr ""
 
-#: 2bc-image-gallery.php:1370
+#: 2bc-image-gallery.php:1621
 msgid "August"
 msgstr ""
 
-#: 2bc-image-gallery.php:1371
+#: 2bc-image-gallery.php:1622
 msgid "September"
 msgstr ""
 
-#: 2bc-image-gallery.php:1372
+#: 2bc-image-gallery.php:1623
 msgid "October"
 msgstr ""
 
-#: 2bc-image-gallery.php:1373
+#: 2bc-image-gallery.php:1624
 msgid "November"
 msgstr ""
 
-#: 2bc-image-gallery.php:1374
+#: 2bc-image-gallery.php:1625
 msgid "December"
 msgstr ""
 
-#: 2bc-image-gallery.php:1403
+#: 2bc-image-gallery.php:1661
 msgid "Galleries by month"
 msgstr ""
 
-#: 2bc-image-gallery.php:1419
+#: 2bc-image-gallery.php:1677
 msgid "Custom Galleries"
 msgstr ""
 
-#: 2bc-image-gallery.php:1446
+#: 2bc-image-gallery.php:1713
 msgid "No galleries to display!"
 msgstr ""
 
-#: 2bc-image-gallery.php:1707
+#: 2bc-image-gallery.php:1799
 msgid "&laquo; Back to galleries"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "http://2bcoding.com/plugins/2bc-image-gallery"
+#: 2bc-image-gallery.php:2192
+msgid "ERROR: Could not get image from database"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"Add tags to images and group them into galleries, easily set options to "
-"display the lightbox galleries, or use the shortcode"
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:94
+msgid "Error - type cannot be empty"
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "2bcoding"
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:110
+#, php-format
+msgid "Error - invalid type - %s"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "http://2bcoding.com"
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:116
+msgid "Error - name cannot be empty"
+msgstr ""
+
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:120
+#, php-format
+msgid "Error - invalid name - %s"
 msgstr ""

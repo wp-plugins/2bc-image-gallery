@@ -1,12 +1,12 @@
 === 2BC Image Gallery ===
 Contributors: 2bc_jason, 2bc_aron
 Donate link: http://2bcoding.com/donate-to-2bcoding
-Tags: 2bcoding, 2bc, image, gallery, image gallery, lightbox, gallery lightbox, ajax, javascript, responsive, mobile view, media, automatic, tags, categories, shortcode
+Tags: 2bcoding, 2bc, image, gallery, image gallery, lightbox, gallery lightbox, ajax, javascript, responsive, mobile view, media, automatic, tags, categories, shortcode, slideshow, slider, slides, modal
 Author URI: http://2bcoding.com
 Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 1.0.1
+Tested up to: 4.1.1
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,13 +16,14 @@ Add tags to images and group them into galleries, easily set options to display 
 
 The [2BC Image Gallery](http://2bcoding.com/plugins/2bc-image-gallery/) WordPress plugin is designed to add tags to images in the WordPress media library. Once the images are tagged and grouped into galleries, there are several options to display galleries throughout the site.
 
-The default styling includes a lightbox to open the images in a modal window.  The gallery screens are loaded via AJAX, with a loading icon to let you know it's working. The display is designed to be responsive friendly, meaning it should work well with responsive themes on mobile devices. We intend to add more options in regards to gallery styling as we update the plugin.
+The default styling includes a lightbox to open the images in a modal window with a slideshow and back/next buttons.  The gallery screens are loaded via AJAX, with a loading icon to let you know it's working. The display is designed to be responsive friendly, meaning it should work well with responsive themes on mobile devices. We intend to add more options around styling as we update the plugin.
 
 = Features =
 
 The 2BC Image Gallery allows for tagging of photos (including automatic tagging of uploaded photos) with date appropriate tags.  Custom tags can be added as well by editing an image and changing the *Galleries* section.  After a few galleries have been created, it's very simple to display them on various pages.  The gallery viewer has been designed with the following features:
 
 * Lightbox gallery - All images open in a modal/lightbox view
+* Slideshow and Forward / Back buttons for easy browsing
 * AJAX driven - Galleries and images will appear without the page having to refresh, making for a quicker and smoother experience
 * Responsive - Ready for viewing on mobile phones or tablets in responsive themes
 * Lots of options - Use the settings page, or get technical with the shortcode or function call
@@ -54,7 +55,7 @@ The *2BC Image Gallery* can be installed via the WordPress plugin repository (au
 1. [Download a copy of the plugin](https://wordpress.org/plugins/2bc-image-gallery/) and save it to the local computer.  Make sure that the folder has been unzipped.
 2. [Using an FTP program or cPanel](https://codex.wordpress.org/FTP_Clients) (a good program for FTP is [FileZilla](https://filezilla-project.org/)), connect to the server that is hosting the website
 3. Find the root folder for the site and browse to the following directories: **wp-content** > **plugins**
-4. Upload the un-compressed *2BC Image Gallery* plugin folder in to the *plugins* folder on the server
+4. Upload the un-compressed *2bc-image-gallery* folder in to the *plugins* folder on the server
 5. [Log in to the WordPress administration panel](https://codex.wordpress.org/First_Steps_With_WordPress#Log_In) with an administrator account
 6. Click **Plugins** > **Installed Plugins**
 7. Find the *2BC Image Gallery* plugin in the list and click the **Activate** link
@@ -159,6 +160,25 @@ function my_custom_next_button_function($button_text) {
 
 == Changelog ==
 
+= 2.0.0 =
+* Rewrite entire plugin to be in custom class
+* Added custom thumb background color
+* Added twobc_wpadmin_input_fields for option fields
+* Added Modal Options - title and background color
+* Added slideshow to lightbox modal, with next and previous buttons
+* Added slideshow delay option
+* Edits to default cosmetic style
+* Edits to admin style
+* Customized PicoModal call to avoid conflicts
+* Adjusted height of modal to work with new information
+* New resizer function for modal
+* Added accessors for plugin version and plugin default options instead of using globals
+* Added shortcode atts to default filter - shortcode_atts_2bc_image_gallery
+* Fixed issue with parsing default URL's
+* Updated POT language file
+* Created us_EN translations
+* Updated tags
+
 = 1.0.1 =
 * Adding additional items to gettext filter for translation
 * Fixed reference to lang folder
@@ -167,6 +187,9 @@ function my_custom_next_button_function($button_text) {
 * Launch of the official plugin
 
 == Upgrade Notice ==
+
+= 2.0.0 =
+Improves the look of the modal screen with a slideshow and adds more options
 
 = 1.0.1 =
 Fixes minor bugs with translations

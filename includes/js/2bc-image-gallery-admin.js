@@ -40,4 +40,14 @@ jQuery(document).ready(function ($) {
 		// Opens the media library frame.
 		meta_image_frame.open();
 	});
+
+	// Color picker fields
+	var cp_options = {
+		defaultColor: "#cccccc",
+		palettes: true
+	};
+	var colorpicker = $('.twobcig_color_picker').get(0);
+	if(colorpicker) {
+		$('.twobcig_color_picker').wpColorPicker(cp_options);
+	}
 });
