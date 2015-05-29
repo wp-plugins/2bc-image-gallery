@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2BC Image Gallery\n"
+"POT-Creation-Date: 2015-03-06 20:08-0800\n"
+"PO-Revision-Date: 2015-03-06 20:10-0800\n"
+"Last-Translator: Jason Dreher <jason@2bcoding.com>\n"
+"Language-Team: 2BCoding <info@2bcoding.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 2bc-image-gallery.php:182 2bc-image-gallery.php:1023
+#: 2bc-image-gallery.php:1063
+msgid "Choose or Upload an Image"
+msgstr "Choose or Upload an Image"
+
+#: 2bc-image-gallery.php:183
+msgid "Use this image"
+msgstr "Use this image"
+
+#: 2bc-image-gallery.php:312
+msgid "Galleries"
+msgstr "Galleries"
+
+#: 2bc-image-gallery.php:313
+msgid "Search Galleries"
+msgstr "Search Galleries"
+
+#: 2bc-image-gallery.php:314
+msgid "All Galleries"
+msgstr "All Galleries"
+
+#: 2bc-image-gallery.php:315
+msgid "Edit Gallery"
+msgstr "Edit Gallery"
+
+#: 2bc-image-gallery.php:316
+msgid "View Gallery"
+msgstr "View Gallery"
+
+#: 2bc-image-gallery.php:317
+msgid "Update Gallery"
+msgstr "Update Gallery"
+
+#: 2bc-image-gallery.php:318
+msgid "Add New Gallery"
+msgstr "Add New Gallery"
+
+#: 2bc-image-gallery.php:319
+msgid "New Gallery Name"
+msgstr "New Gallery Name"
+
+#: 2bc-image-gallery.php:320
+msgid "Popular Galleries"
+msgstr "Popular Galleries"
+
+#: 2bc-image-gallery.php:321
+msgid "Separate galleries with commas"
+msgstr "Separate galleries with commas"
+
+#: 2bc-image-gallery.php:322
+msgid "Add or remove galleries"
+msgstr "Add or remove galleries"
+
+#: 2bc-image-gallery.php:323
+msgid "Choose from the most used galleries"
+msgstr "Choose from the most used galleries"
+
+#: 2bc-image-gallery.php:324
+msgid "No galleries found"
+msgstr "No galleries found"
+
+#: 2bc-image-gallery.php:351 2bc-image-gallery.php:352
+msgid "2BC Image Gallery"
+msgstr "2BC Image Gallery"
+
+#: 2bc-image-gallery.php:377
+msgid "Gallery Options"
+msgstr "Gallery Options"
+
+#: 2bc-image-gallery.php:391
+msgid "Select a page&hellip;"
+msgstr "Select a page&hellip;"
+
+#: 2bc-image-gallery.php:401
+msgid "Gallery Page"
+msgstr "Gallery Page"
+
+#: 2bc-image-gallery.php:408
+msgid ""
+"Select a page to display galleries on.  The shortcode <code class=\"language-"
+"markup\">[2bc_image_gallery]</code> can be used for manual display instead "
+"of setting a page here."
+msgstr ""
+"Select a page to display galleries on.  The shortcode <code class=\"language-"
+"markup\">[2bc_image_gallery]</code> can be used for manual display instead "
+"of setting a page here."
+
+#: 2bc-image-gallery.php:416
+msgid "Page Content"
+msgstr "Page Content"
+
+#: 2bc-image-gallery.php:423
+msgid "Control how page content is handled on the Gallery Page"
+msgstr "Control how page content is handled on the Gallery Page"
+
+#: 2bc-image-gallery.php:425
+msgid "Before page content"
+msgstr "Before page content"
+
+#: 2bc-image-gallery.php:426
+msgid "Replace &#37;&#37;2bc_image_gallery&#37;&#37; template tag"
+msgstr "Replace &#37;&#37;2bc_image_gallery&#37;&#37; template tag"
+
+#: 2bc-image-gallery.php:427
+msgid "After page content"
+msgstr "After page content"
+
+#: 2bc-image-gallery.php:428
+msgid "Replace all page content with gallery"
+msgstr "Replace all page content with gallery"
+
+#: 2bc-image-gallery.php:436
+msgid "Sort Method"
+msgstr "Sort Method"
+
+#: 2bc-image-gallery.php:443
+msgid ""
+"Select how gallery images are sorted: by <strong>uploaded date</strong>, "
+"alphbetically by <strong>filename</strong>, or <strong>random</strong>"
+msgstr ""
+"Select how gallery images are sorted: by <strong>uploaded date</strong>, "
+"alphbetically by <strong>filename</strong>, or <strong>random</strong>"
+
+#: 2bc-image-gallery.php:445
+msgid "Date uploaded"
+msgstr "Date uploaded"
+
+#: 2bc-image-gallery.php:446
+msgid "Filename"
+msgstr "Filename"
+
+#: 2bc-image-gallery.php:447 2bc-image-gallery.php:514
+msgid "Random"
+msgstr "Random"
+
+#: 2bc-image-gallery.php:455
+msgid "Sort Order"
+msgstr "Sort Order"
+
+#: 2bc-image-gallery.php:462
+msgid ""
+"Which direction to sort, <strong>ascending</strong> (1, 2, 3) or "
+"<strong>descending</strong> (9, 8, 7)"
+msgstr ""
+"Which direction to sort, <strong>ascending</strong> (1, 2, 3) or "
+"<strong>descending</strong> (9, 8, 7)"
+
+#: 2bc-image-gallery.php:464
+msgid "Descending"
+msgstr "Descending"
+
+#: 2bc-image-gallery.php:465
+msgid "Ascending"
+msgstr "Ascending"
+
+#: 2bc-image-gallery.php:473
+msgid "Paginate Galleries"
+msgstr "Paginate Galleries"
+
+#: 2bc-image-gallery.php:481
+msgid "Break up galleries into pages"
+msgstr "Break up galleries into pages"
+
+#: 2bc-image-gallery.php:488
+msgid "Images Per Page"
+msgstr "Images Per Page"
+
+#: 2bc-image-gallery.php:495
+msgid ""
+"How many images to display per page, only applies if pagination is enabled"
+msgstr ""
+"How many images to display per page, only applies if pagination is enabled"
+
+#: 2bc-image-gallery.php:503
+msgid "Gallery Thumb Source"
+msgstr "Gallery Thumb Source"
+
+#: 2bc-image-gallery.php:510
+msgid ""
+"If the gallery does not have a custom thumbnail, decide how to generate one"
+msgstr ""
+"If the gallery does not have a custom thumbnail, decide how to generate one"
+
+#: 2bc-image-gallery.php:512
+msgid "Last image added"
+msgstr "Last image added"
+
+#: 2bc-image-gallery.php:513
+msgid "First image added"
+msgstr "First image added"
+
+#: 2bc-image-gallery.php:523
+msgid "Background Color: Image Thumbs"
+msgstr "Background Color: Image Thumbs"
+
+#: 2bc-image-gallery.php:531
+msgid "Choose an optional custom color for the image thumbnail backgrounds"
+msgstr "Choose an optional custom color for the image thumbnail backgrounds"
+
+#: 2bc-image-gallery.php:540
+msgid "Hide Default Stying"
+msgstr "Hide Default Stying"
+
+#: 2bc-image-gallery.php:548
+msgid ""
+"Check to not load the default style sheet, and create the styling in the "
+"theme CSS instead"
+msgstr ""
+"Check to not load the default style sheet, and create the styling in the "
+"theme CSS instead"
+
+#: 2bc-image-gallery.php:555
+msgid "Disable AJAX"
+msgstr "Disable AJAX"
+
+#: 2bc-image-gallery.php:563
+msgid ""
+"Check to disable AJAX calls.  Do this if galleries are not loading when "
+"clicked.  This will mean that the page will refresh with the new content."
+msgstr ""
+"Check to disable AJAX calls.  Do this if galleries are not loading when "
+"clicked.  This will mean that the page will refresh with the new content."
+
+#: 2bc-image-gallery.php:571
+msgid "Modal Options"
+msgstr "Modal Options"
+
+#: 2bc-image-gallery.php:580
+msgid "Display Image Title"
+msgstr "Display Image Title"
+
+#: 2bc-image-gallery.php:588
+msgid "Display the image title when viewing a single image in the lightbox"
+msgstr "Display the image title when viewing a single image in the lightbox"
+
+#: 2bc-image-gallery.php:596
+msgid "Slideshow Delay"
+msgstr "Slideshow Delay"
+
+#: 2bc-image-gallery.php:603
+msgid ""
+"Enter how many milliseconds to wait before displaying the next slide, when "
+"the slideshow is playing"
+msgstr ""
+"Enter how many milliseconds to wait before displaying the next slide, when "
+"the slideshow is playing"
+
+#: 2bc-image-gallery.php:611
+msgid "Background Color: Modal Window"
+msgstr "Background Color: Modal Window"
+
+#: 2bc-image-gallery.php:619
+msgid "Choose an optional custom color for the modal window background"
+msgstr "Choose an optional custom color for the modal window background"
+
+#: 2bc-image-gallery.php:679
+msgid "Calendar Based Galleries"
+msgstr "Calendar Based Galleries"
+
+#: 2bc-image-gallery.php:687
+msgid "Add Calendar Based Galleries"
+msgstr "Add Calendar Based Galleries"
+
+#: 2bc-image-gallery.php:695
+msgid "Add calendar galleries (i.e. January, 2012) to uploaded images"
+msgstr "Add calendar galleries (i.e. January, 2012) to uploaded images"
+
+#: 2bc-image-gallery.php:702
+msgid "Separate Calendar Galleries"
+msgstr "Separate Calendar Galleries"
+
+#: 2bc-image-gallery.php:710
+msgid "Show calendar galleries in their own separate section"
+msgstr "Show calendar galleries in their own separate section"
+
+#: 2bc-image-gallery.php:717
+msgid "Show Month Galleries"
+msgstr "Show Month Galleries"
+
+#: 2bc-image-gallery.php:725
+msgid ""
+"Display month-based galleries on the main page, only applies if "
+"<strong>Separate Calendar Galleries</strong> is checked"
+msgstr ""
+"Display month-based galleries on the main page, only applies if "
+"<strong>Separate Calendar Galleries</strong> is checked"
+
+#: 2bc-image-gallery.php:817
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: 2bc-image-gallery.php:833
+msgid "2BC Image Gallery Options"
+msgstr "2BC Image Gallery Options"
+
+#: 2bc-image-gallery.php:836
+msgid ""
+"More help available at the <a href=\"http://2bcoding.com/plugins/2bc-image-"
+"gallery/2bc-image-gallery-documentation/\" target=\"_blank\" ref=\"nofollow"
+"\">2BC Image Gallery documentation page</a>."
+msgstr ""
+"More help available at the <a href=\"http://2bcoding.com/plugins/2bc-image-"
+"gallery/2bc-image-gallery-documentation/\" target=\"_blank\" ref=\"nofollow"
+"\">2BC Image Gallery documentation page</a>."
+
+#: 2bc-image-gallery.php:970
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: 2bc-image-gallery.php:1001
+msgid ""
+"This page is currently being used to display the <strong>2BC Media Gallery</"
+"strong>"
+msgstr ""
+"This page is currently being used to display the <strong>2BC Media Gallery</"
+"strong>"
+
+#: 2bc-image-gallery.php:1015
+msgid "Gallery Featured Image ID"
+msgstr "Gallery Featured Image ID"
+
+#: 2bc-image-gallery.php:1029 2bc-image-gallery.php:1069
+msgid "Choose or upload a picture to be the galleries featured image"
+msgstr "Choose or upload a picture to be the galleries featured image"
+
+#: 2bc-image-gallery.php:1048
+msgid "Gallery Featured Image"
+msgstr "Gallery Featured Image"
+
+#: 2bc-image-gallery.php:1105
+msgid "ID"
+msgstr "ID"
+
+#: 2bc-image-gallery.php:1597
+msgid "Galleries by year"
+msgstr "Galleries by year"
+
+#: 2bc-image-gallery.php:1621
+msgid "January"
+msgstr "January"
+
+#: 2bc-image-gallery.php:1622
+msgid "February"
+msgstr "February"
+
+#: 2bc-image-gallery.php:1623
+msgid "March"
+msgstr "March"
+
+#: 2bc-image-gallery.php:1624
+msgid "April"
+msgstr "April"
+
+#: 2bc-image-gallery.php:1625
+msgid "May"
+msgstr "May"
+
+#: 2bc-image-gallery.php:1626
+msgid "June"
+msgstr "June"
+
+#: 2bc-image-gallery.php:1627
+msgid "July"
+msgstr "July"
+
+#: 2bc-image-gallery.php:1628
+msgid "August"
+msgstr "August"
+
+#: 2bc-image-gallery.php:1629
+msgid "September"
+msgstr "September"
+
+#: 2bc-image-gallery.php:1630
+msgid "October"
+msgstr "October"
+
+#: 2bc-image-gallery.php:1631
+msgid "November"
+msgstr "November"
+
+#: 2bc-image-gallery.php:1632
+msgid "December"
+msgstr "December"
+
+#: 2bc-image-gallery.php:1668
+msgid "Galleries by month"
+msgstr "Galleries by month"
+
+#: 2bc-image-gallery.php:1684
+msgid "Custom Galleries"
+msgstr "Custom Galleries"
+
+#: 2bc-image-gallery.php:1720
+msgid "No galleries to display!"
+msgstr "No galleries to display!"
+
+#: 2bc-image-gallery.php:1806
+msgid "&laquo; Back to galleries"
+msgstr "&laquo; Back to galleries"
+
+#: 2bc-image-gallery.php:2199
+msgid "ERROR: Could not get image from database"
+msgstr "ERROR: Could not get image from database"
+
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:94
+msgid "Error - type cannot be empty"
+msgstr "Error - type cannot be empty"
+
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:110
+#, php-format
+msgid "Error - invalid type - %s"
+msgstr "Error - invalid type - %s"
+
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:116
+msgid "Error - name cannot be empty"
+msgstr "Error - name cannot be empty"
+
+#: includes/class_twobc_wpadmin_input_fields_1_0_0.php:120
+#, php-format
+msgid "Error - invalid name - %s"
+msgstr "Error - invalid name - %s"
+
+#~ msgid "Display Image Description"
+#~ msgstr "Display Image Description"
+
+#~ msgid ""
+#~ "Display the image description when viewing a single image in the lightbox"
+#~ msgstr ""
+#~ "Display the image description when viewing a single image in the lightbox"
+
+#~ msgid "Display Share Buttons"
+#~ msgstr "Display Share Buttons"
+
+#~ msgid ""
+#~ "Display social share buttons when viewing a single image in the lightbox"
+#~ msgstr ""
+#~ "Display social share buttons when viewing a single image in the lightbox"
