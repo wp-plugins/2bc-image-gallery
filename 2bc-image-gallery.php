@@ -3,7 +3,7 @@
  * Plugin Name: 2BC Image Gallery
  * Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
  * Description: Add tags to images and group them into galleries, easily set options to display the lightbox galleries, or use the shortcode
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: 2BCoding
  * Author URI: http://2bcoding.com
  * Text Domain: 2bc-image-gallery
@@ -11,7 +11,7 @@
  */
 
 /*
- * Copyright 2014-2015  2BCoding  (email : info@2bcoding.com)
+ * Copyright 2014-2015  2BCoding (email : info@2bcoding.com)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
@@ -107,7 +107,7 @@ class twobc_image_gallery {
 	 * @return string
 	 */
 	private static function get_version() {
-		$current_version = '2.0.0';
+		$current_version = '2.0.1';
 
 		return $current_version;
 	}
@@ -1518,7 +1518,7 @@ input[type="number"].small-text {
 			// add any overrides
 			if ( false !== $args && is_array($args) ) {
 				$custom_data_attb = array();
-				
+
 				foreach ( $args as $_opt_name => $_opt_val ) {
 					$_opt_name = esc_attr($_opt_name);
 					$_opt_val = esc_attr($_opt_val);
@@ -1833,7 +1833,7 @@ input[type="number"].small-text {
 			}
 
 			$output .= ' data-twobcig-index="' . $dynamic_index . '"';
-			
+
 			$output .= ' data-twobcig-count="' . $term_obj->count . '"';
 
 			$output .= '>';

@@ -6,7 +6,7 @@ Author URI: http://2bcoding.com
 Plugin URI: http://2bcoding.com/plugins/2bc-image-gallery
 Requires at least: 3.6
 Tested up to: 4.2.2
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,15 +27,19 @@ The 2BC Image Gallery allows for tagging of photos (including automatic tagging 
 * AJAX driven - Galleries and images will appear without the page having to refresh, making for a quicker and smoother experience
 * Responsive - Ready for viewing on mobile phones or tablets in responsive themes
 * Lots of options - Use the settings page, or get technical with the shortcode or function call
-* More options to come - We already have some ideas to make this plugin even better, please visit <http://2bcoding.com> to give suggestions or feedback, or use the WordPress support feature
+* More options to come - We already have some ideas to make this plugin even better, please visit <http://2bcoding.com/> to give suggestions or feedback, or use the WordPress support feature
 
 = Documentation =
 
-The [2BC Image Gallery documentation page](http://2bcoding.com/plugins/2bc-image-gallery/2bc-image-gallery-documentation) contains an explanation of all the settings, as well as available arguments via the shortcode and function calls.  Any actions or filters that are included in the 2BC Image Gallery are also discussed here.
+The [2BC Image Gallery documentation page](http://2bcoding.com/plugins/2bc-image-gallery/2bc-image-gallery-documentation/) contains an explanation of all the settings, as well as available arguments via the shortcode and function calls.  Any actions or filters that are included in the 2BC Image Gallery are also discussed here.
 
 = Demo =
 
-The [2BC Image Gallery demo page](http://2bcoding.com/plugins/2bc-image-gallery/2bc-image-gallery-demo) has been setup to show what the plugin will look like with different settings, as well as what is possible via the settings screen and the shortcode call.
+The [2BC Image Gallery demo page](http://2bcoding.com/plugins/2bc-image-gallery/2bc-image-gallery-demo/) has been setup to show what the plugin will look like with different settings, as well as what is possible via the settings screen and the shortcode call.
+
+= Languages =
+* English (US)
+* Serbian | srpski - Translated by [Web Hosting Geeks](http://webhostinggeeks.com/)
 
 == Installation ==
 
@@ -160,6 +164,10 @@ function my_custom_next_button_function($button_text) {
 
 == Changelog ==
 
+= 2.0.1 =
+* Added Serbian translation from Borisa Djuraskovic at webhostinggeeks.com
+* Fixing name of English translation files to match WordPress standard
+
 = 2.0.0 =
 * Rewrite entire plugin to be in custom class
 * Added custom thumb background color
@@ -187,6 +195,9 @@ function my_custom_next_button_function($button_text) {
 * Launch of the official plugin
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+Added Serbian translation
 
 = 2.0.0 =
 Improves the look of the modal screen with a slideshow and adds more options
